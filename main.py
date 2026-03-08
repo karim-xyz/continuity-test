@@ -1,6 +1,7 @@
 from sympy import symbols, zoo, nan, limit, pretty_print, Reals
 from sympy.calculus.util import continuous_domain
 from sympy.parsing.sympy_parser import parse_expr
+from graph import draw
 
 x = symbols("x")
 
@@ -27,4 +28,8 @@ if cond1 and cond2 and cond3:
     print(f"f is continuous at {c}")
 else:
     print(f"f is not continuous at {c}")
+
+disp = input("display a graph? [y/N] ")
+if disp == "y":
+    draw(f, x)
 

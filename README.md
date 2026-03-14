@@ -8,13 +8,13 @@ I'm currently working on a ![web version](https://github.com/karim-xyz/continuit
 
 ---
 
-# getting started
+## getting started
 
-'''
+```
 pip install -r requiremets.txt
 
 python main.py
-'''
+```
 
 ---
 
